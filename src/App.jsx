@@ -1,10 +1,13 @@
 import React from 'react'
-import Products from './pages/Products'
+import './App.css'
+import Navbar from './assets/components/Navbar/Navbar'
+import RoutesPaths from './routing/RoutePaths'
 
 const App = () => {
   return (
     <div>
-      <Products/>
+      <Navbar/>
+      <RoutesPaths/>
     </div>
   )
 }
